@@ -6,9 +6,9 @@ Làm quen với công cụ trao đổi dữ liệu giữa các tiến trình (pr
 Trong chuẩn POSIX khu vực bộ nhớ chia sẻ (a shared memory area) được tạo ra bởi lệnh sau:  
 ````int shm_open(const char *name, int oflag, mode_t mode),````  
 trong đó:  
-`name` – tên của khu vực bộ nhớ chia sẻ (name of shared memory area);
-`oflag` – flags, được định nghĩa kiểu của shared memory area;
-`mode` – quyền truy cập vào shared memory area.  
+`name` – tên của khu vực bộ nhớ chia sẻ (name of shared memory area);  
+`oflag` – flags, được định nghĩa kiểu của shared memory area;  
+`mode` – quyền truy cập vào shared memory area.    
 
 Thiết lập kích cỡ (size of shared memory area):  
 ````int ftruncate(int fd, off_t length),````
